@@ -22,6 +22,7 @@ body {
     border-radius: 10px;
     background: dodgerblue;
     padding: 20px;
+    position: relative;
 }
 
 
@@ -56,7 +57,9 @@ p{
 .hidden {
     visibility: hidden;
 }
-
+.location {
+    margin-top:-1015px;
+}
 #getInformation {
     display: block;
     margin: 10px auto;
