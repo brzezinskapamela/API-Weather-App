@@ -1,6 +1,4 @@
 .icon {
-    /*position: absolute;*/
-    /*left:50%;*/
     width: 8em;
     /*height: 4em;*/
     font-size: 2.5em;
@@ -60,6 +58,7 @@
     width: 2.5em;
     height: 2.5em;
     margin: -1.25em;
+    margin-left: 50px;
     border-radius: 50%;
     box-shadow: 0 0 0 0.375em #fff;
     animation: spin 12s infinite linear;
