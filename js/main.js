@@ -1,5 +1,6 @@
 $('#getInformation').on('click', function() {
     if (navigator.geolocation) {
+        console.log('x')
         navigator.geolocation.getCurrentPosition(alertPosition);
     } else {
         prompt('If you want to check the weather,you need do allow to get your geolocation');

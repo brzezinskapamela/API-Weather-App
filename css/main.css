@@ -15,7 +15,6 @@ body {
 
 .weatherApp {
     width: 700px;
-    height: 500px;
     margin: 50px auto;
     border: 2px solid black;
     box-shadow: 1px 1px 4px #222;
@@ -25,6 +24,10 @@ body {
     position: relative;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
 
 h1 {
     text-align: center;
@@ -55,10 +58,10 @@ p{
 }
 
 .hidden {
-    visibility: hidden;
+    display: none;
 }
 .location {
-    margin-top:-1015px;
+
 }
 #getInformation {
     display: block;

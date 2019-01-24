@@ -2,7 +2,7 @@
     /*position: absolute;*/
     /*left:50%;*/
     width: 8em;
-    height: 4em;
+    /*height: 4em;*/
     font-size: 2.5em;
     color:#e1f5fe;
 }
@@ -15,6 +15,7 @@
     width: 3.6875em;
     height: 3.6875em;
     margin: -1.84375em;
+    margin-left: 50px;
     color: white;
     background-color: white;
     border-radius: 50%;
