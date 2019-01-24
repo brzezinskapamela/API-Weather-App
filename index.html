@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Gentium+Basic" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<div class="weatherApp">
+    <h1>Check the Weather</h1>
+    <div class="date"></div>
+    <div class="results"></div>
+<div class="picture"><img src="./images/rainbow.svg"/></div>
+
+    <div class="icon sun-shower hidden">
+        <div class="cloud"></div>
+        <div class="sun">
+            <div class="rays"></div>
+        </div>
+        <div class="rain"></div>
+    </div>
+
+    <div class="icon thunder-storm hidden">
+        <div class="cloud"></div>
+        <div class="lightning">
+            <div class="bolt"></div>
+            <div class="bolt"></div>
+        </div>
+    </div>
+
+    <div class="icon cloudy hidden">
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+    </div>
+
+    <div class="icon flurries hidden">
+        <div class="cloud"></div>
+        <div class="snow">
+            <div class="flake"></div>
+            <div class="flake"></div>
+        </div>
+    </div>
+
+    <div class="icon sunny hidden">
+        <div class="sun">
+            <div class="rays"></div>
+        </div>
+    </div>
+
+    <div class="icon rainy hidden">
+        <div class="cloud"></div>
+        <div class="rain"></div>
+</div>
+
+<div class="location">
+<p>Find your location...</p>
+<button id="getInformation">Find</button>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
