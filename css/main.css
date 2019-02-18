@@ -14,7 +14,7 @@ body {
 
 
 .weatherApp {
-    width: 700px;
+    max-width: 600px;
     margin: 50px auto;
     border: 2px solid black;
     box-shadow: 1px 1px 4px #222;
@@ -71,5 +71,20 @@ p{
     border-radius: 20px;
     font-size: 15px;
     cursor: pointer;
+}
+
+
+@media ( max-width: 500px) {
+    .date p{ font-size: 40px;}
+    .results h2 { font-size: 37px;}
+    .results p{ font-size: 32px;}
+}
+
+@media (max-width:350px) {
+    h1 {font-size: 40px;}
+    .location p { font-size:30px; }
+    .date p{ font-size: 30px;}
+    .results h2 { font-size: 28px;}
+    .results p{ font-size: 25px;}
 }
 

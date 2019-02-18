@@ -17,6 +17,7 @@ function alertPosition(position) {
 
                 $('.location').remove();
                 $('.picture').remove();
+                $('.weatherApp h1').remove();
 
 
 

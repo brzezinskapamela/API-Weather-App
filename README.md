@@ -1,3 +1,3 @@
 # API Weather App
 
-To jest projekt dotyczacy pracy z technologiami AJAX na kursie CodersLab.
+This is Weather App fetching data from API by using AJAX and jQuery based on geolacation.
